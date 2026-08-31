@@ -15,10 +15,9 @@ const projects = [
     name: "TheRidaStories53",
     type: "Client Website",
     description:
-      "A client website project. The full story, visuals and project details will be added as the case study is developed.",
-    tags: ["Website", "Client Project"],
-    // Not live yet — intentionally no link/CTA on this card until it launches.
-    link: null,
+      "A fashion storefront for browsing a curated clothing collection, with orders taken directly through WhatsApp. An Admin Panel is also built with dashboard to manage the products and collections and overall website.",
+    tags: ["Website", "E-commerce", "Client Project"],
+    link: "https://theridastories53.vercel.app",
   },
   {
     number: "02",
@@ -31,12 +30,20 @@ const projects = [
   },
   {
     number: "03",
+    name: "Mustafa Bakhtawary — Portfolio",
+    type: "Personal Portfolio",
+    description:
+      "A personal portfolio site for a business development and sales professional, built to reflect his work bridging business, technology and client relationships.",
+    tags: ["Website", "Personal Branding"],
+    link: "https://bakhtawary-portfolio.vercel.app",
+  },
+  {
+    number: "04",
     name: "UtilVerse",
     type: "Utility Application",
     description:
       "A multi-utility application bringing useful everyday tools into one simple, accessible platform.",
     tags: ["Mobile", "Utilities", "Product"],
-    // TODO: point this at the APK download once it's provided, e.g. "/assets/utilverse.apk"
     link: asset("/assets/utilverse.apk"),
   },
 ];
