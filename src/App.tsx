@@ -30,6 +30,15 @@ const projects = [
   },
   {
     number: "03",
+    name: "QuoteCraft",
+    type: "Web Application",
+    description:
+      "A project pricing and scope estimator for freelancers and creative studios. Turn deliverables, effort, expenses, risk, and target profit margin into defensible project quotes.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Product"],
+    link: "https://myquotecraft.vercel.app",
+  },
+  {
+    number: "04",
     name: "Mustafa Bakhtawary — Portfolio",
     type: "Personal Portfolio",
     description:
@@ -38,7 +47,7 @@ const projects = [
     link: "https://bakhtawary-portfolio.vercel.app",
   },
   {
-    number: "04",
+    number: "05",
     name: "UtilVerse",
     type: "Utility Application",
     description:
